@@ -1,0 +1,188 @@
+.cart__container {
+  position: absolute;
+  top: 8vmax;
+
+  width: 100vw;
+}
+.title {
+  margin-bottom: 5vh;
+}
+.card {
+  margin: auto;
+  max-width: 950px;
+  width: 90%;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
+  border: transparent;
+}
+.close{
+  margin-left: .3rem !important;
+  margin-bottom: .3rem;
+}
+.close:hover{
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .card {
+    margin: 3vh auto;
+  }
+  .remove-all-btn {
+    width: 20%;
+  }
+}
+.cart {
+ 
+  padding: 4vh 5vh;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+@media (max-width: 767px) {
+  .cart {
+    padding: 4vh;
+    border-bottom-left-radius: unset;
+    border-top-right-radius: 1rem;
+  }
+}
+.summary {
+  background: #f9816c;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 4vh;
+  color: black;
+  font-weight: bolder;
+}
+.scroll {
+  overflow-y: scroll;
+  max-height: 20rem;
+  width: 50vw;
+}
+@media (max-width: 767px) {
+  .summary {
+    border-top-right-radius: unset;
+    border-bottom-left-radius: 1rem;
+  }
+}
+@media (max-width: 675px) {
+  .row {
+    flex-direction: column;
+  }
+  .row__items {
+    text-align: center;
+  }
+  .scroll {
+    width: 70vw;
+  }
+}
+.summary .col-2 {
+  padding: 0;
+}
+.summary .col-10 {
+  padding: 0;
+}
+.row {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.title b {
+  font-size: 1.5rem;
+}
+.main {
+  margin: 0;
+  padding: 2vh 0;
+  width: 100%;
+}
+.col-2,
+.col {
+  padding: 0 1vh;
+}
+a {
+  padding: 0 1vh;
+  text-decoration: none;
+  color: tomato;
+  text-decoration: underline;
+}
+.close {
+  margin-left: auto;
+  font-size: 0.7rem;
+}
+.img__fluid {
+  width: 3.5rem;
+}
+.back__to__shop {
+  margin-top: 4.5rem;
+}
+h5 {
+  margin-top: 4vh;
+}
+hr {
+  margin-top: 1.25rem;
+}
+form {
+  padding: 2vh 0;
+}
+
+.remove__all__btn{
+  border: none;
+  background: tomato;
+  font: 800 0.7vmax "Roboto";
+  border-radius: 30px;
+  padding: 1vmax 2.6vmax;
+
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+}
+
+.remove__all__btn:hover {
+  background: rgb(197, 68, 45);
+}
+.col > button {
+  border: none;
+  background: rgba(0, 0, 0, 0.616);
+  padding: 0.5vmax;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+  margin: auto;
+}
+.col > button:hover {
+  background: rgba(0, 0, 0, 0.767);
+}
+.col > input {
+  border: none;
+  padding: 0.5vmax;
+  width: 4vmax;
+  text-align: center;
+  outline: none;
+  font: 400 0.8vmax "Roboto";
+  color: rgba(0, 0, 0, 0.74);
+}
+.empty__cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+}
+.empty__cart > svg {
+  color: tomato;
+  font-size: 10vmax;
+}
+.empty__cart> a {
+  border: none;
+  background: black;
+  padding: 1vmax;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+  margin: 1rem 0;
+  text-decoration: none;
+}
+.empty__cart > a:hover {
+  background: rgba(0, 0, 0, 0.616);
+}
+

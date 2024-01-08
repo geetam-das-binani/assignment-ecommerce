@@ -1,0 +1,10 @@
+.filter__box > select {
+    width: 11.5vmax;
+    padding: 1vmax;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    outline: none;
+    font: 300 0.9vmax cursive;
+    border-radius: 4px;
+    margin: 0.5vmax 0;
+  }
+  

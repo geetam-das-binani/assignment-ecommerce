@@ -1,0 +1,20 @@
+.wrap {
+  width: 40%;
+}
+.search {
+  width: 100%;
+  position: relative;
+}
+
+.searchTerm {
+  width: 100%;
+border: 1px solid black;
+  padding: 10px;
+  height: 20px;
+  border-radius: 20px;
+  outline: none;
+  color: black;
+}
+.searchTerm:focus {
+  border: 2px solid tomato;
+}
